@@ -9,7 +9,7 @@ Vibe-Scale is a standard for declaring how much LLMs and coding agents were used
 All code written by humans. No LLM tools used at any stage.
 
 ```markdown
-[![Vibe-Scale 0: No AI](https://img.shields.io/badge/Vibe--Scale%200-No%20AI-9467bd)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 0: No AI](https://img.shields.io/badge/Vibe--Scale%200-No%20AI-9467bd)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-0.md)
 ```
 
 ---
@@ -19,7 +19,7 @@ All code written by humans. No LLM tools used at any stage.
 AI used for autocomplete, snippets, Q&A, or generating whole functions. Every line is read and understood by a human before commit, and the project has complete automated and manual testing.
 
 ```markdown
-[![Vibe-Scale 1: AI-assisted with full understanding and complete testing](https://img.shields.io/badge/Vibe--Scale%201-AI--assisted%2C%20full%20review-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1: AI-assisted with full understanding](https://img.shields.io/badge/Vibe--Scale%201-AI--assisted%2C%20full%20review-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md)
 ```
 
 ---
@@ -29,7 +29,7 @@ AI used for autocomplete, snippets, Q&A, or generating whole functions. Every li
 AI generates meaningful portions of the code. Understanding and testing are present but with minor gaps — either some code is spot-checked rather than fully reviewed, or test coverage is partial.
 
 ```markdown
-[![Vibe-Scale 2: AI use balanced with understanding and testing](https://img.shields.io/badge/Vibe--Scale%202-Balanced%20AI%20use-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 2: AI use balanced with understanding and testing](https://img.shields.io/badge/Vibe--Scale%202-Balanced%20AI%20use-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md)
 ```
 
 ---
@@ -39,7 +39,7 @@ AI generates meaningful portions of the code. Understanding and testing are pres
 AI generates significant portions of the code with notable gaps in either understanding or testing — some code isn't reviewed, or coverage is limited, but not both.
 
 ```markdown
-[![Vibe-Scale 3: Significant AI use with understanding or testing gaps](https://img.shields.io/badge/Vibe--Scale%203-Significant%20AI%20with%20gaps-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 3: Significant AI use with understanding or testing gaps](https://img.shields.io/badge/Vibe--Scale%203-Significant%20AI%20with%20gaps-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md)
 ```
 
 ---
@@ -49,7 +49,7 @@ AI generates significant portions of the code with notable gaps in either unders
 AI generates significant portions of the code with compound gaps — code review is limited AND test coverage is limited. Trust rests largely on the model's own output.
 
 ```markdown
-[![Vibe-Scale 4: Significant AI use with understanding AND testing gaps](https://img.shields.io/badge/Vibe--Scale%204-Significant%20AI%2C%20compound%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 4: Significant AI use with understanding AND testing gaps](https://img.shields.io/badge/Vibe--Scale%204-Significant%20AI%2C%20compound%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-4.md)
 ```
 
 ---
@@ -59,7 +59,7 @@ AI generates significant portions of the code with compound gaps — code review
 AI writes and ships. No human code review, no human-run tests. Trust is entirely in the model and its own checks.
 
 ```markdown
-[![Vibe-Scale 5: Full vibe](https://img.shields.io/badge/Vibe--Scale%205-Full%20vibe-b8336a)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 5: Full vibe](https://img.shields.io/badge/Vibe--Scale%205-Full%20vibe-b8336a)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-5.md)
 ```
 
 ---
@@ -110,90 +110,90 @@ Authors who want to declare the precise V-U-T vector can use the badges below.
 ![Vibe-Scale 0: No AI](https://img.shields.io/badge/Vibe--Scale%200-No%20AI-9467bd)
 
 ```markdown
-[![Vibe-Scale 0: No AI](https://img.shields.io/badge/Vibe--Scale%200-No%20AI-9467bd)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 0: No AI](https://img.shields.io/badge/Vibe--Scale%200-No%20AI-9467bd)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-0.md)
 ```
 
 #### Scores 0.5 - 1.0 — AI with full or near-full review
 
 ![Vibe-Scale 0.5(V1|U0|T0): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%200.5(V1%7CU0%7CT0)-AI--assisted%2C%20fully%20reviewed-3558a0) - Limited AI with full understanding and complete testing
 ```markdown
-[![Vibe-Scale 0.5(V1|U0|T0): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%200.5(V1%7CU0%7CT0)-AI--assisted%2C%20fully%20reviewed-3558a0)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 0.5(V1|U0|T0): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%200.5(V1%7CU0%7CT0)-AI--assisted%2C%20fully%20reviewed-3558a0)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md#v1-u0-t0-score-05--ai-assisted-fully-reviewed)
 ```
 
 ![Vibe-Scale 1.0(V1|U0|T1): AI-assisted, partial testing](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU0%7CT1)-AI--assisted%2C%20partial%20testing-1f77b4) - Limited AI with full understanding and almost complete testing
 ```markdown
-[![Vibe-Scale 1.0(V1|U0|T1): AI-assisted, partial testing](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU0%7CT1)-AI--assisted%2C%20partial%20testing-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1.0(V1|U0|T1): AI-assisted, partial testing](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU0%7CT1)-AI--assisted%2C%20partial%20testing-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md#v1-u0-t1-score-10--ai-assisted-partial-testing)
 ```
 
 ![Vibe-Scale 1.0(V1|U1|T0): AI-assisted, spot-checked](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU1%7CT0)-AI--assisted%2C%20spot--checked-1f77b4) - Limited AI with almost complete understanding and complete automated and manual testing
 ```markdown
-[![Vibe-Scale 1.0(V1|U1|T0): AI-assisted, spot-checked](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU1%7CT0)-AI--assisted%2C%20spot--checked-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1.0(V1|U1|T0): AI-assisted, spot-checked](https://img.shields.io/badge/Vibe--Scale%201.0(V1%7CU1%7CT0)-AI--assisted%2C%20spot--checked-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md#v1-u1-t0-score-10--ai-assisted-spot-checked)
 ```
 
 ![Vibe-Scale 1.0(V2|U0|T0): Significant AI, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.0(V2%7CU0%7CT0)-Significant%20AI%2C%20fully%20reviewed-1f77b4) - Significant AI with full understanding and complete automated and manual testing
 ```markdown
-[![Vibe-Scale 1.0(V2|U0|T0): Significant AI, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.0(V2%7CU0%7CT0)-Significant%20AI%2C%20fully%20reviewed-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1.0(V2|U0|T0): Significant AI, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.0(V2%7CU0%7CT0)-Significant%20AI%2C%20fully%20reviewed-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md#v2-u0-t0-score-10--significant-ai-fully-reviewed)
 ```
 
 #### Scores 1.5 - 2.0 — Balanced AI use with minor gaps
 
 ![Vibe-Scale 1.5(V1|U0|T2): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU0%7CT2)-AI--assisted%2C%20fully%20reviewed-2ca02c) - Limited AI with full understanding and no testing
 ```markdown
-[![Vibe-Scale 1.5(V1|U0|T2): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU0%7CT2)-AI--assisted%2C%20fully%20reviewed-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1.5(V1|U0|T2): AI-assisted, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU0%7CT2)-AI--assisted%2C%20fully%20reviewed-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v1-u0-t2-score-15--ai-assisted-no-testing)
 ```
 
 ![Vibe-Scale 1.5(V1|U1|T1): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU1%7CT1)-AI--assisted%20with%20gaps-2ca02c) - Limited AI with spot-checked understanding and partial testing
 ```markdown
-[![Vibe-Scale 1.5(V1|U1|T1): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU1%7CT1)-AI--assisted%20with%20gaps-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 1.5(V1|U1|T1): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%201.5(V1%7CU1%7CT1)-AI--assisted%20with%20gaps-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v1-u1-t1-score-15--ai-assisted-with-gaps)
 ```
 
 ![Vibe-Scale 2.0(V1|U1|T2): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%202.0(V1%7CU1%7CT2)-AI--assisted%20with%20gaps-2ca02c) - Limited AI with spot-checked understanding and no testing
 ```markdown
-[![Vibe-Scale 2.0(V1|U1|T2): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%202.0(V1%7CU1%7CT2)-AI--assisted%20with%20gaps-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 2.0(V1|U1|T2): AI-assisted with gaps](https://img.shields.io/badge/Vibe--Scale%202.0(V1%7CU1%7CT2)-AI--assisted%20with%20gaps-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v1-u1-t2-score-20--ai-assisted-with-gaps)
 ```
 
 ![Vibe-Scale 2.0(V2|U0|T1): Significant AI, partial testing](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU0%7CT1)-Significant%20AI%2C%20partial%20testing-2ca02c) - Significant AI with full understanding and partial testing
 ```markdown
-[![Vibe-Scale 2.0(V2|U0|T1): Significant AI, partial testing](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU0%7CT1)-Significant%20AI%2C%20partial%20testing-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 2.0(V2|U0|T1): Significant AI, partial testing](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU0%7CT1)-Significant%20AI%2C%20partial%20testing-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v2-u0-t1-score-20--significant-ai-partial-testing)
 ```
 
 ![Vibe-Scale 2.0(V2|U1|T0): Significant AI, spot-checked](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU1%7CT0)-Significant%20AI%2C%20spot--checked-2ca02c) - Significant AI with spot-checked understanding and complete testing
 ```markdown
-[![Vibe-Scale 2.0(V2|U1|T0): Significant AI, spot-checked](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU1%7CT0)-Significant%20AI%2C%20spot--checked-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 2.0(V2|U1|T0): Significant AI, spot-checked](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU1%7CT0)-Significant%20AI%2C%20spot--checked-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v2-u1-t0-score-20--significant-ai-spot-checked)
 ```
 
 #### Score 3.0 — Significant AI with a dimension gap
 
 ![Vibe-Scale 3.0(V2|U0|T2): Significant AI, no testing](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU0%7CT2)-Significant%20AI%2C%20no%20testing-ffe066) - Significant AI with full understanding and no testing
 ```markdown
-[![Vibe-Scale 3.0(V2|U0|T2): Significant AI, no testing](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU0%7CT2)-Significant%20AI%2C%20no%20testing-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 3.0(V2|U0|T2): Significant AI, no testing](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU0%7CT2)-Significant%20AI%2C%20no%20testing-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md#v2-u0-t2-score-30--significant-ai-no-testing)
 ```
 
 ![Vibe-Scale 3.0(V2|U1|T1): Significant AI with gaps](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU1%7CT1)-Significant%20AI%20with%20gaps-ffe066) - Significant AI with spot-checked understanding and partial testing
 ```markdown
-[![Vibe-Scale 3.0(V2|U1|T1): Significant AI with gaps](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU1%7CT1)-Significant%20AI%20with%20gaps-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 3.0(V2|U1|T1): Significant AI with gaps](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU1%7CT1)-Significant%20AI%20with%20gaps-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md#v2-u1-t1-score-30--significant-ai-with-gaps)
 ```
 
 ![Vibe-Scale 3.0(V2|U2|T0): Vibed code, tested](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU2%7CT0)-Vibed%20code%2C%20tested-ffe066) - Significant AI with no code review and complete automated and manual testing
 ```markdown
-[![Vibe-Scale 3.0(V2|U2|T0): Vibed code, tested](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU2%7CT0)-Vibed%20code%2C%20tested-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 3.0(V2|U2|T0): Vibed code, tested](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU2%7CT0)-Vibed%20code%2C%20tested-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md#v2-u2-t0-score-30--vibed-code-tested)
 ```
 
 #### Score 4.0 — Significant AI with compound gaps
 
 ![Vibe-Scale 4.0(V2|U1|T2): Significant AI, test gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU1%7CT2)-Significant%20AI%2C%20test%20gaps-ff7f0e) - Significant AI with spot-checked understanding and no testing
 ```markdown
-[![Vibe-Scale 4.0(V2|U1|T2): Significant AI, test gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU1%7CT2)-Significant%20AI%2C%20test%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 4.0(V2|U1|T2): Significant AI, test gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU1%7CT2)-Significant%20AI%2C%20test%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-4.md#v2-u1-t2-score-40--significant-ai-test-gaps)
 ```
 
 ![Vibe-Scale 4.0(V2|U2|T1): Vibed code with gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU2%7CT1)-Vibed%20code%20with%20gaps-ff7f0e) - Significant AI with no code review and partial testing
 ```markdown
-[![Vibe-Scale 4.0(V2|U2|T1): Vibed code with gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU2%7CT1)-Vibed%20code%20with%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 4.0(V2|U2|T1): Vibed code with gaps](https://img.shields.io/badge/Vibe--Scale%204.0(V2%7CU2%7CT1)-Vibed%20code%20with%20gaps-ff7f0e)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-4.md#v2-u2-t1-score-40--vibed-code-with-gaps)
 ```
 
 #### Score 5.0 — Full vibe
 
 ![Vibe-Scale 5.0(V2|U2|T2): Full vibe](https://img.shields.io/badge/Vibe--Scale%205.0(V2%7CU2%7CT2)-Full%20vibe-b8336a) - Significant AI with no code review and no testing
 ```markdown
-[![Vibe-Scale 5.0(V2|U2|T2): Full vibe](https://img.shields.io/badge/Vibe--Scale%205.0(V2%7CU2%7CT2)-Full%20vibe-b8336a)](https://github.com/vibesdk/vibe-scale/blob/main/README.md)
+[![Vibe-Scale 5.0(V2|U2|T2): Full vibe](https://img.shields.io/badge/Vibe--Scale%205.0(V2%7CU2%7CT2)-Full%20vibe-b8336a)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-5.md)
 ```
