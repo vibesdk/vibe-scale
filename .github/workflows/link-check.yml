@@ -1,0 +1,16 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --max-retries 2 --retry-wait-time 10 '**/*.md'
+          fail: true
