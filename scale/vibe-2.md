@@ -80,7 +80,7 @@ AI generates whole functions or files and the human reads every line before it l
 
 Significant AI generation, spot-checked understanding, complete testing.
 
-AI does the heavy lifting on generation, the human spot-checks rather than reading line-by-line, and the test suite carries the weight of correctness. A common shape for agent-assisted projects with strong test discipline — where the harness is trusted to catch what review skims over.
+AI does the heavy lifting on generation, the human spot-checks rather than reading line-by-line, and the test suite carries the weight of correctness. A common shape for agent-assisted projects with strong test discipline, where the harness is trusted to catch what review skims over.
 
 ```markdown
 [![Vibe-Scale 2.0(V2|U1|T0): Significant AI, spot-checked](https://img.shields.io/badge/Vibe--Scale%202.0(V2%7CU1%7CT0)-Significant%20AI%2C%20spot--checked-2ca02c)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-2.md#v2-u1-t0-score-20--significant-ai-spot-checked)

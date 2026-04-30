@@ -24,7 +24,7 @@ Each vector is one specific combination of [AI use (V), human understanding (U),
 
 Significant AI generation, full understanding, no testing.
 
-AI writes a lot, humans read every line that lands, but the project has no automated or manual test layer. Code review is the only safety net — what reviewers miss has nothing else to catch it, and behavior changes will not be flagged by a regression check. Common in early-stage projects where iteration speed has outpaced the test harness.
+AI writes a lot, humans read every line that lands, but the project has no automated or manual test layer. Code review is the only safety net. What reviewers miss has nothing else to catch it, and behavior changes will not be flagged by a regression check. Common in early-stage projects where iteration speed has outpaced the test harness.
 
 ```markdown
 [![Vibe-Scale 3.0(V2|U0|T2): Significant AI, no testing](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU0%7CT2)-Significant%20AI%2C%20no%20testing-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md#v2-u0-t2-score-30--significant-ai-no-testing)
@@ -52,7 +52,7 @@ The compromised shape: AI does the heavy lifting, humans spot-check rather than 
 
 Significant AI generation, no human review, complete testing.
 
-The vibe-and-verify shape: the agent writes, the human doesn't read the implementation, but a strong suite of automated and manual tests validates behavior. Trust rests entirely on the test suite — what isn't tested isn't checked at all, and code quality questions (clarity, security, maintainability) that tests don't surface go unexamined.
+The vibe-and-verify shape: the agent writes, the human doesn't read the implementation, but a strong suite of automated and manual tests validates behavior. Trust rests entirely on the test suite. What isn't tested isn't checked at all, and code quality questions (clarity, security, maintainability) that tests don't surface go unexamined.
 
 ```markdown
 [![Vibe-Scale 3.0(V2|U2|T0): Vibed code, tested](https://img.shields.io/badge/Vibe--Scale%203.0(V2%7CU2%7CT0)-Vibed%20code%2C%20tested-ffe066)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-3.md#v2-u2-t0-score-30--vibed-code-tested)

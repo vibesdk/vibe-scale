@@ -8,7 +8,7 @@
 
 Vibe-Scale 4 projects have significant AI contribution with compound gaps — both review and testing are limited. Neither safety net is carrying the project; the gaps in each can overlap on the same code, and what the model got wrong may go undetected entirely. Trust rests largely on the model's own output.
 
-Users should be selective about relying on Vibe-Scale 4 projects and should not use them in roles where undetected failures carry real consequences. This is not a project to trust blindly — it is a project to treat as a starting point, a prototype, or a tool where failure is recoverable.
+Users should be selective about relying on Vibe-Scale 4 projects and should not use them in roles where undetected failures carry real consequences. This is not a project to trust blindly. Treat it as a starting point, a prototype, or a tool where failure is recoverable.
 
 ---
 

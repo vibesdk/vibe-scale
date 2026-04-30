@@ -6,7 +6,7 @@
 [![Vibe-Scale 1: AI-assisted with full understanding](https://img.shields.io/badge/Vibe--Scale%201-AI--assisted%2C%20full%20review-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md)
 ```
 
-Vibe-Scale 1 is the gold standard for AI-assisted projects: AI contributes meaningfully but humans stay firmly in the loop. AI may produce autocomplete, snippets, answers to questions, or whole functions — but every line that lands in the repository has been read and understood by a human before commit, and behavior is validated by a strong suite of automated and manual tests.
+Vibe-Scale 1 is the gold standard for AI-assisted projects: AI contributes meaningfully but humans stay firmly in the loop. AI may produce autocomplete, snippets, answers to questions, or whole functions, but every line that lands in the repository has been read and understood by a human before commit, and behavior is validated by a strong suite of automated and manual tests.
 
 A reader picking up code from a Vibe-Scale 1 project can trust that any line could be defended by a human author. Code review catches the model's mistakes, and tests catch the gaps between what the model wrote and what was actually wanted. The leverage AI provides is real, but the responsibility for what ships still sits with the team.
 
@@ -70,7 +70,7 @@ Significant AI generation, full understanding, complete testing.
 
 The most AI-heavy shape that still scores 1: AI generates whole functions or files, but every line is read and understood before commit, and the project is fully tested. The model produces a lot, but humans take responsibility for all of it.
 
-This is the high-leverage end of responsible AI use — heavy generation with no compromise on review or testing.
+This is the high-leverage end of responsible AI use. Heavy generation with no compromise on review or testing.
 
 ```markdown
 [![Vibe-Scale 1.0(V2|U0|T0): Significant AI, fully reviewed](https://img.shields.io/badge/Vibe--Scale%201.0(V2%7CU0%7CT0)-Significant%20AI%2C%20fully%20reviewed-1f77b4)](https://github.com/vibesdk/vibe-scale/blob/main/scale/vibe-1.md#v2-u0-t0-score-10--significant-ai-fully-reviewed)
